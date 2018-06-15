@@ -6,11 +6,14 @@ Dark Orange - #FF8C00;
 Cyan - #0FF;
 Ivory - #FFFFF0;
 Snow - #FFFAFA;
+Floral White - #FFFAF0;
+40% Slate Gray - #596673;
+Rebecca purple - #663399;
  */
 
 /* Main Colors */
 .header {
-  background-color: #FFFAFA;
+  background-color: #FFFAF0;
 }
 
 .main-banner {
@@ -56,6 +59,7 @@ Snow - #FFFAFA;
 .button span:hover {
   background-color: red;
 }
+
 /* Universal */
 html {
   font-size: 16px;
@@ -72,12 +76,12 @@ h1 {
 }
 
 h2 {
-  color: #lime;
+  color: lime;
 }
 
 h3 {
   font-size: 1.5rem;
-  color: #purple;
+  color: purple;
 }
 
 p {
@@ -90,9 +94,53 @@ span {
 
 a {
   text-decoration: none;
-  color: silver;
+  color: #596673;
 }
 
 .mobile-icons {
   display: none;
+}
+
+/* HEADER */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 4rem;
+  color: #FFFAFA;
+  border-bottom: 1px solid #000;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  margin-left: 1.5rem;
+}
+
+.menu {
+  margin-right: 0.5rem;
+}
+
+.menu span {
+  margin: auto 1rem;
+}
+
+.menu a:hover {
+  border-bottom: 0.09rem solid #4B0082;
+}
+
+.logo span {
+  font-family: Kurale;
+}
+
+#colmar {
+  color: #0000cc;
+}
+
+#academy {
+  font-family: Kurale;
+  color: #4d4dff;
 }

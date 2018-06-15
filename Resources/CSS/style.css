@@ -1,0 +1,98 @@
+/* colors
+lawn Green - #7CFC00;
+Indigo - #4B0082;
+Royal Blue - #4169E1;
+Dark Orange - #FF8C00;
+Cyan - #0FF;
+Ivory - #FFFFF0;
+Snow - #FFFAFA;
+ */
+
+/* Main Colors */
+.header {
+  background-color: #FFFAFA;
+}
+
+.main-banner {
+  width: 100%;
+}
+
+.info {
+  background-color: #FFFFF0;
+}
+
+#courses {
+  background-color: #FFFAFA;
+}
+
+#thesis-banner {
+  background-color: #7CFC00;
+}
+
+.footer {
+  background-color: #4B0082;
+}
+
+.side-container {
+  background-color: #f00;
+}
+
+.industry-container{
+  background-color: #00f;
+}
+
+.side-container:hover {
+  background-color: LightGray;
+}
+
+.industry-container:hover {
+  background-color: LightGray;
+}
+
+.button span {
+  background-color: orange;
+}
+
+.button span:hover {
+  background-color: red;
+}
+/* Universal */
+html {
+  font-size: 16px;
+  font-family: 'Crimson Text';
+  background-color: blue;
+}
+
+body {
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  color: #lime;
+}
+
+h3 {
+  font-size: 1.5rem;
+  color: #purple;
+}
+
+p {
+  font-family: Domine;
+}
+
+span {
+  font-family: Domine;
+}
+
+a {
+  text-decoration: none;
+  color: silver;
+}
+
+.mobile-icons {
+  display: none;
+}

@@ -8,7 +8,10 @@ Ivory - #FFFFF0;
 Snow - #FFFAFA;
 Floral White - #FFFAF0;
 40% Slate Gray - #596673;
-Rebecca purple - #663399;
+Blue - #0000cc;
+Light shade Blue - #4d4dff;
+Black - #1a1a1a;
+DimGray - #696969;
  */
 
 /* Main Colors */
@@ -53,11 +56,11 @@ Rebecca purple - #663399;
 }
 
 .button span {
-  background-color: orange;
+  background-color: #696969;
 }
 
 .button span:hover {
-  background-color: red;
+  background-color: #4169E1;
 }
 
 /* Universal */
@@ -101,7 +104,7 @@ a {
   display: none;
 }
 
-/* HEADER */
+/* Header */
 
 .header {
   display: flex;
@@ -143,4 +146,74 @@ a {
 #academy {
   font-family: Kurale;
   color: #4d4dff;
+}
+
+/* Main Banner */
+.banner {
+  background-image: url(../images/banner.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-banner {
+  display: flex;
+  background-color: #1a1a1a;
+  opacity: 0.65;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  height: 50%;
+  margin: 0 auto;
+}
+
+.main-banner .text {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+
+.main.image {
+  width: 100%;
+  margin: 2rem 1.5rem;
+}
+
+.image img {
+ width: 100%;
+}
+
+.button {
+  padding-top: 2rem;
+}
+
+.button span {
+  padding: 1.5rem 6rem;
+  width: 100%;
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+  transition: all 500ms linear 0s;
+  border-radius: 3px;
+}
+
+.button,
+.text h1 {
+  margin: 2rem 0;
+}
+
+.button a {
+  color: #FF8C00;
+}
+
+.main-banner .text h1 {
+  color: #7CFC00;
+}
+
+.main-banner .text p {
+  color: #FFF;
 }
